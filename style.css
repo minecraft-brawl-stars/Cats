@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer{
+    background-color: #FF9B40;
+}
+
+ nav a{
+    text-decoration: none;
+    color: goldenrod;
+    border: 1px solid Indigo;
+    border-radius: 100%;
+    padding: 10px;
+    background-image: linear-gradient(SlateBlue, DarkSlateBlue);
+    box-shadow: 5px 5px 5px 0px DimGrey;
+}
+
+nav a:focus{
+    box-shadow: -5px -5px 5px 0px DimGrey;
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 25%;
+}
+
+.google{
+    width: 150px;
+    border-radius: 20%;
+}
